@@ -68,6 +68,8 @@ flags = [
 './bsp/beep',
 '-isystem',
 './bsp/key',
+'-isystem',
+'./bsp/gpio',
 ]
 
 
