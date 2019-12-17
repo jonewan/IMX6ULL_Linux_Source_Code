@@ -53,6 +53,8 @@ flags = [
 '-isystem',
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include',
 '-isystem',
+'.',
+'-isystem',
 './bsp',
 '-isystem',
 './imx6u',
@@ -65,13 +67,11 @@ flags = [
 '-isystem',
 './bsp/gpio',
 '-isystem',
-'./bsp/clk'
+'./bsp/clk',
 '-isystem',
-'./bsp/delay'
+'./bsp/delay',
 '-isystem',
-'./bsp/led'
-'-isystem',
-'.'
+'./bsp/led',
 ]
 
 
