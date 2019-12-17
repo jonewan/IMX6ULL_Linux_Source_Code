@@ -10,8 +10,6 @@
 int main(void)
 {
 	unsigned char led_state = OFF;
-	//unsigned char beep_state = OFF;
-	//int key_value = 0;
 
 	int_init();
 	imx6u_clk_init();
