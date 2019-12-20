@@ -1,5 +1,5 @@
 #ifndef _BSP_EPIT_H_
-#define _BSP_EPIT_H_ 
+#define _BSP_EPIT_H_
 
 #include "imx6u.h"
 
